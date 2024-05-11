@@ -1,0 +1,17 @@
+generate controller
+php artisan make:controller InitController --resource
+php artisan make:model Personne
+php artisan make:middleware SessionValidation
+
+composer require barryvdh/laravel-debugbar
+
+installation intervention
+    composer require intervention/image-laravel
+
+installation datatable
+    composer require yajra/laravel-datatables-oracle
+
+clear cache
+php artisan cache:clear
+
+pagination
